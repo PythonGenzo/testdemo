@@ -1,0 +1,41 @@
+Excecution of the code in TXT file
+
+
+1) typeof(1) => 		Number
+
+2) typeof(1.1) => 	Number
+
+3) typeof('1.1') => 	String 
+
+4) typeof(true) => 	Boolean 
+
+5) typeof(null) =>  	Object
+
+6) typeof(undefined) => Undefined 
+
+7) typeof([]) =>		 Object
+
+8) typeof({}) => 		 Object
+
+
+
+
+
+
+
+typeof(1)
+'number'
+typeof(1.1) 
+'number'
+typeof('1.1')
+'string'
+typeof(true) 
+'boolean'
+typeof(null) 
+'object'
+typeof(undefined)
+'undefined'
+typeof([]) 
+'object'
+typeof({})
+'object'
