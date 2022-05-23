@@ -1,0 +1,114 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        .user-form{
+            display: flex;
+            flex-direction: column;
+        }
+
+        input:required{
+            background-color: aqua;
+            border: 3px solid red;
+        }
+         
+        input::placeholder{
+            color: royalblue;
+        }
+    </style>
+</head>
+<body>
+    <!-- using div tags to replace form tags its reload and store the data  -->
+    <h1>Forms</h1>
+    <form class="user-form">
+        <label for="name">Name</label>
+        <!-- Field required attribute -->
+        <input id="name" type="text" placeholder="Enter your name" required /> 
+        <label for="email">Email</label>
+        <input id="email" type="email" placeholder="Enter your email" required />
+        <label for="password">password</label>
+        <!-- Password min & max length -->
+        <input id="password" type="password" placeholder="Enter your password" minlength="8" />
+        <label for="age">Age</label>
+        <!-- age limit min & max -->
+        <input id="age" type="number" placeholder="Enter your age" min="18" max="100" />
+
+        <div>
+            <h4>Gender</h4>
+            <input type="radio" name="gender" id="male" /> <label for="male">Male</label>
+            <input type="radio" name="gender" id="female" /> <label for="female">Female</label>
+        </div>
+
+        <div>
+            <h4>Hobbies</h4>
+            <div>
+                <input type="checkbox" name="hobbies" id="cricket" /> 
+                <label for="cricket">Cricket</label>
+            </div>
+            <div>
+                <input type="checkbox" name="hobbies" id="vollyball" />
+                <label for="vollyball">Vollyball</label> 
+            </div>
+            <div>
+                <input type="checkbox" name="hobbies" id="football" /> 
+                <label for="football">Football</label> 
+            </div>
+            <div>
+                <input type="checkbox" name="hobbies" id="golf" /> 
+                <label for="golf">Golf</label>
+            </div>
+            <div>
+                <!-- Name selector disabled -->
+                <input type="checkbox" disabled name="hobbies" id="chess" />
+                <label for="chess">Chess</label> 
+            </div>     
+        </div>
+
+        <div>
+            <h4>State</h4>
+              <select name="Test" >
+                <option value="TN">Tamil Nadu</option>
+                <option value="KL">Kerala</option>
+                <option value="AP">Andra Pradesh</option>
+                <option value="MH">Maharashtra</option>
+                <option value="DL">Delhi</option>
+              </select>
+        </div>
+
+        <div>
+            <h4>Date of birth</h4>
+            <input type="date"/>
+        </div>
+
+        <div>
+            <h4>Time</h4>
+            <input type="time"/>
+        </div>
+
+        <div>
+            <h4>Date & Time</h4>
+            <input type="datetime-local"/>
+        </div>
+
+        <div>
+            <h4>Choose your fav color</h4>
+            <input type="color" />
+        </div>
+
+        <div>
+            <h4>Text</h4>
+            <textarea placeholder="Tell us about your self" cols="40" rows="20" ></textarea>
+        </div>
+
+        <!-- <button>submit</button> -->
+        <button type="submit">submit</button>
+
+        </>
+
+    </form> 
+</body>
+</html>

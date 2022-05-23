@@ -1,0 +1,102 @@
+body {
+    background: aquamarine;
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    
+
+}
+
+.search {
+    display: flex;
+    justify-content: center ;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.151);
+    margin: 25px;
+    
+}
+
+button {
+    background: whitesmoke;
+    color: blue;
+    border-radius: 10px;
+    width: 75px;
+    padding: 5px;
+    margin-top: opx;
+    margin-bottom:10px;
+}
+
+input {
+    border-radius: 20px;
+    width: 200px;
+    padding: 10px;
+    /* margin-bottom: 0px; */
+}
+label {
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 25px;
+    color: whitesmoke;
+}
+
+.first {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 25px;
+}
+.first-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    margin-top: 20px;
+    width: 500px;
+    height: 250px;
+
+    padding: 25px;
+}
+.second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    margin-top: 20px;
+    width: 600px;
+    height: 250px;
+    padding: 25px;
+}
+.third {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 25px;
+}
+.third-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex;
+    border: 2px solid black;
+    margin-top: 20px;
+    width: 600px;
+    height: 250px;
+    padding: 25px;
+}
+h1 {
+    color: rgba(0, 0, 0, 0.541);
+}
+span {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+

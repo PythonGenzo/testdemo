@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task7</title>
+    <style>
+        .user-form{
+            display: flex;
+            flex-direction: column;
+        }
+        .T{
+            width: 200px;
+            height: 200px;
+            resize: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- 1) how to select multiple items in dropdown box? -->
+    <h1>Forms Task</h1>
+    <div class="user-form">
+
+        <div>
+            <h4>State Single Select</h4>
+              <select name="Test">
+                <option value="TN">Tamil Nadu</option>
+                <option value="KL">Kerala</option>
+                <option value="AP">Andra Pradesh</option>
+                <option value="MH">Maharashtra</option>
+                <option value="DL">Delhi</option>
+              </select>
+        </div>    
+
+    <div>
+        <h4>State Mulipile Select</h4>
+          <select name="Test" multiple>
+            <option value="TN">Tamil Nadu</option>
+            <option value="KL">Kerala</option>
+            <option value="AP">Andra Pradesh</option>
+            <option value="MH">Maharashtra</option>
+            <option value="DL">Delhi</option>
+          </select>
+    </div>
+    </div>
+
+    <!-- 2) textarea size not changed? -->
+
+    <div>
+        <h4>Text</h4>
+        <textarea name="Text" class="T" placeholder="Tell us about your self" ></textarea>
+    </div>
+</body>
+</html>

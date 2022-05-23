@@ -1,0 +1,22 @@
+#form-result {
+    display: flex;
+    gap: 20px;
+}
+
+.user-details {
+    display: flex;
+    gap: 20px;
+}
+
+#user-input {
+    background: grey;
+    padding: 15px;
+}
+
+#form-result {
+    font-weight: bold;
+}
+
+input {
+    margin: 7px;
+}

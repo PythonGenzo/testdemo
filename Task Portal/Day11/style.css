@@ -1,0 +1,90 @@
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+ 
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+ 
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+ 
+  .Contact {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+
+  
+  .header {
+      display: flex;
+      justify-content: content;
+      background-color: red;
+      color: white;
+      font-weight: bold;
+      font-size: 35px;
+  }
+
+  .mag {
+      border: 2px solid black;
+      padding: 20px;
+      margin: 5px 250px;
+  }
+
+  .one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 0px;
+  }
+  .one1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 0px;
+  }
+
+  .two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+
+  .two2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 0px;
+  }
+
+  .last {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+table,th,td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}

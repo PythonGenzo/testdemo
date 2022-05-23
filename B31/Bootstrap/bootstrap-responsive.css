@@ -1,0 +1,20 @@
+.row > * {
+    background: aqua;
+    border: 2px solid red;
+}
+
+.content {
+    color: whitesmoke;
+}
+
+.content > div:nth-child(1) {
+    background: royalblue;
+}
+
+.content > div:nth-child(2) {
+    background: palevioletred;
+}
+
+.content > div:nth-child(3) {
+    background: green;
+}
