@@ -8,7 +8,7 @@ export default function App() {
   return (
     <div className="App">
       <Msg
-        name="Prasanth"
+        name="prasanth"
         pic="https://images.unsplash.com/photo-1420593248178-d88870618ca0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bmF0dXJhbHxlbnwwfHwwfHw%3D&w=1000&q=80"
       />
       <Msg
